@@ -17,8 +17,8 @@ st.set_page_config(layout="wide", page_title="Air Pollution Predictor", page_ico
                                         " give a short forecast on air quality given current time and weather conditions"
                                         " and whether it would still be appropriate to exercise in."})
 
-MODEL_FP = "C:/Users/tomwr/Datascience/Datasets/Tabular/leeds_air_quality/models/lgbm1.joblib"
-SCALER_FP = "C:/Users/tomwr/Datascience/Datasets/Tabular/leeds_air_quality/models/lgbm1_scaler.joblib"
+MODEL_FP = "https://raw.githubusercontent.com/twrighta/leeds-air-pollution-streamlit/main/lgbm1.joblib"
+SCALER_FP = "https://raw.githubusercontent.com/twrighta/leeds-air-pollution-streamlit/main/lgbm1_scaler.joblib"
 
 
 # Functions ------------------------------------------------------------------------------------------------------------
