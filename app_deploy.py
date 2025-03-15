@@ -6,6 +6,7 @@ import time
 import numpy as np
 import warnings
 import pandas as pd
+import gunicorn
 
 # Config ---------------------------------------------------------------------------------------------------------------
 warnings.simplefilter("ignore")
